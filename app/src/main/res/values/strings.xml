@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Kataleko Notes</string>
+    <string name="anotar">Anotar</string>
+    <string name="voltar">Voltar</string>
+    <string name="excluir">Excluir</string>
+    <string name="atualizar">Atualizar</string>
+    <string name="detalhes">Detalhes</string>
+    <string name="t_tulo_da_nota">Título da nota</string>
+    <string name="seja_bem_vindo">SEJA BEM-VINDO</string>
+</resources>

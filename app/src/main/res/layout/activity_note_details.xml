@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".NoteDetailsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalhes da nota"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:paddingBottom="40dp"
+        android:textColor="@color/cyan"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Título"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etTitleEdit"
+        android:hint="@string/t_tulo_da_nota"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Texto"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBodyEdit"
+        android:hint="@string/detalhes"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingVertical="20dp"
+        >
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/atualizar"
+            android:id="@+id/btnUpdateNote"
+            android:layout_marginRight="10dp"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="@string/excluir"
+            android:id="@+id/btnDeleteNote"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/voltar"
+        android:id="@+id/btnBack"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
